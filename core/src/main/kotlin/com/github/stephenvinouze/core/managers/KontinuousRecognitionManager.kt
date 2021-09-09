@@ -18,7 +18,7 @@ import com.github.stephenvinouze.core.models.RecognitionStatus
 class KontinuousRecognitionManager(
         private val context: Context,
         private val activationKeyword: String,
-        private val shouldMute: Boolean = false,
+        private val shouldMute: Boolean = true,
         private val callback: RecognitionCallback? = null
 ) : RecognitionListener {
 
